@@ -1,0 +1,22 @@
+from turtle import *
+pencolor("red")
+color("pink")
+begin_fill()
+penup()
+goto(100,100)
+pendown()
+for i in range(3):
+    right(60)
+    fd(-40)
+    right(120)
+    fd(-40)
+    left(120)
+    
+    circle(-100,-180)
+    right(60)
+    fd(40)
+    right(120)
+    fd(40)
+    left(120)
+    circle(100,180)
+end_fill()
