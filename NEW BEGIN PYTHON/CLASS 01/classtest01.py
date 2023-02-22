@@ -15,3 +15,5 @@ print(len(str2))
 
 age = input()
 print("you age " + str(int(age)+1) + "~~~")
+
+
