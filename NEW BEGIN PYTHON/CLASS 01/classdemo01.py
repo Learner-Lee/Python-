@@ -9,6 +9,12 @@ a = "i like python , it also like me"
 print(a.replace("i","W"))
 print(a.replace("i","W",1))
 
+
+
+
+
+
+
 # 字符串分割 split()
 # 语法
 # string.split(separator, maxsplit)
@@ -34,6 +40,14 @@ x = txt.split("#", 1)
 print(x)
 
 
+
+
+
+
+
+
+
+
 # 去除两侧多余的字符
 # str.strip(chars=None)
 # string.strip(characters)
@@ -47,6 +61,14 @@ print(W.strip("*"))
 txt = ",,,,,rrttgg.....banana....rrr"
 x = txt.strip(",.grt")
 print(x)
+
+
+
+
+
+
+
+
 
 
 # 写入现有文件
@@ -87,3 +109,34 @@ f.close()
 #open and read the file after the overwriting:
 f = open("demofile3.txt", "r")
 print(f.read())
+
+
+
+
+
+
+
+
+# Python 算术运算符
+'''
+算术运算符与数值一起使用以执行常见的数学运算：
+
+Operator	Name	            Example	
++	        Addition	        x + y	
+-	        Subtraction	        x - y	
+*	        Multiplication	    x * y	
+/	        Division	        x / y	
+%	        Modulus	            x % y	
+**	        Exponentiation	    x ** y	
+//	        Floor division	    x // y
+'''
+a,b=5,2
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a%b)
+print(a**b)
+a//=b
+print(a)
