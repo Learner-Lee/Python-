@@ -19,6 +19,7 @@ if __name__ == '__main__':
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67',
         'Referer': 'https://www.sogou.com/'
     }
+    # 这是为了模拟浏览器发送请求时的 Referer 报头，告诉服务器我们是从 Pixiv 网站上的页面跳转过来的。
     """
     User-Agent 本机身份信息
     Referer 从哪里跳转
